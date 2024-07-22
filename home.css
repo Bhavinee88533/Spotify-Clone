@@ -1,0 +1,415 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    width: 1800px;
+    letter-spacing: 0px;
+    user-select: none;
+  }
+  a{
+    color: rgba(255, 255, 255,0.5);
+    text-decoration: none;
+  }
+  .container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+  .sidebar{
+    height: 87vh;
+    width: 22.5vw;
+    border-radius: 3%;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+  }
+  .sidebar .nav {
+    color: rgba(255, 255, 255,1);
+    background-color: rgb(37, 37, 37);
+    border-radius: 3%;
+    padding: 25px 30px 20px 15px;
+    margin-top: 10px;
+    font-weight:600;
+    font-size: large;
+    line-height: 2.5;
+  }
+  .sidebar .nav i{
+    font-size: larger;
+  }
+  .sidebar .nav a:hover{
+    color: rgba(255, 255, 255,1);
+    cursor: pointer;
+  }
+  .sidebar .nav a:focus{
+    color: rgba(255, 255, 255,1);
+  }
+  .sidebar .lib{
+    padding: 0px;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    border-radius: 3%;
+    padding: 15px 0px 15px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    line-height: 2.5;
+  }
+  .sidebar .lib a:hover {
+    color: rgba(255, 255, 255,1);
+    cursor: pointer;
+  }
+  .sidebar .lib i {
+    color: rgba(255, 255, 255,0.5);
+  }
+  .sidebar .lib i:hover{
+    color: rgba(255, 255, 255,1);
+    cursor: pointer;
+  }
+  .sidebar .lib a:focus {
+    color: rgba(255, 255, 255,1);
+    cursor: pointer;
+  }
+  .sidebar .lib i:focus{
+    color: rgba(255, 255, 255,1);
+    cursor: pointer;
+  }
+.option button{
+    background-color: rgb(54, 52, 52);
+    color:aliceblue;
+    border-radius: 14px;
+    padding: 8px;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+  }
+ button:hover{
+   background-color: rgb(71, 71, 71);
+   cursor: pointer;
+  }
+ .playlist .search-coloum{
+    padding-left: 2px;
+    font-size: medium;
+  }
+  .search-coloum:hover{
+    color: white;
+    cursor: pointer;
+  }
+  .playlist{
+    height: 299px;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 600;
+    overflow-y: auto;
+  }
+  .playlist div:hover{
+    background-color: rgb(57, 57, 57);
+    cursor: pointer;
+  }
+  .playlist div{
+    height: 63.5px;
+    position: relative;
+    left: -2px;
+  }
+  .playlist .span1{
+    position: relative;
+    top: -32px;
+    left: 10px;
+  }
+  .playlist .thumbtack{
+    position: relative;
+    left: -95px;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: small;
+} .playlist .liked-songs  i{
+  color: rgba(0, 128, 0,1);
+  opacity: 1;
+}
+  .playlist .span-ed{
+      position: relative;
+      left: -90px;
+      opacity: 0.7;
+      font-weight: 300;
+      font-size: small;
+  }
+  .playlist .span-ar{
+    position: relative;
+    left: -79px;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: small;
+}
+.playlist .span-ari{
+  position: relative;
+  left: -111px;
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: small;
+}
+.playlist .span-honey{
+  position: relative;
+  left: -96px;
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: small;
+}
+.playlist .span-justin{
+  position: relative;
+  left: -100px;
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: small;
+}
+ .create-playlist{
+  height: 140px;
+  padding: 20px;
+  padding-left: 15px;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 6px;
+  background-color: rgb(37, 37, 37);
+  line-height: 2;
+}
+.create-playlist span{
+  font-size: medium;
+  font-weight: 600;
+}
+.create-playlist button{
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border:none;
+  border-radius: 100px;
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+}
+.create-playlist button:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+header{
+    margin: 10px;
+    background-color: rgb(37, 37, 37);;
+    height: 7vh;
+    width: 73vw;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    font-size: large;
+  }header i:hover{
+    cursor: pointer;
+  }
+  header  button{
+    position: absolute;
+    right: 100px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    padding: 7px 15px 7px 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  header button:hover{
+   cursor: pointer;
+  }
+  .main-content h1:hover{
+    cursor: pointer;
+    border-bottom:3px solid #fffefe;
+  }
+  
+  .main-content{
+  background-color: rgb(37, 37, 37);
+  height: 73.5vh;
+  width:71vw ;
+  padding: 65px 50px 50px 50px;
+  position: absolute;
+  left: 450px;
+  top: 7px;
+  border-radius: 1%;
+  }
+  .player{
+    height: 94px;
+    width: 1440px;
+  }
+  .player div{
+    width: 333px;
+    height: 65px;
+    display: inline-block;
+    background-color: rgb(52, 50, 50);
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .player div:hover{
+    background-color: #444242;
+    cursor: pointer;
+    
+  }
+  .player div span{
+    position: relative;
+    top: -30px;
+    right:-10px;
+    font-size: large;
+    font-weight: 700;
+  }
+  .player div span i{
+    font-size:xx-large;
+    position: relative;
+    top: 4px;
+    font-size: xx-large;
+    color:rgba(69, 241, 121, 0);
+  }
+  .player div span i:hover{
+    font-size:xx-large;
+    color:rgba(69, 241, 121, 5);
+  }
+  .spotifyPlaylist{
+    position: relative;
+    top: 70px;
+    height:300px;
+    width: 1380px;
+  }
+  .card{
+    position: absolute;
+    top: 357px;
+   height: 200px;
+   width: 1380px;
+   
+  }
+  .card div{
+    display: inline-block;
+    height: 250px;
+    width: 193px;
+    line-height: 1;
+    
+  }
+  .card div p{
+   font-weight:700;
+   font-size: medium;
+   
+  }
+  .card div span{
+    font-weight: 200;
+    font-size: small;
+    color: #bebebe;
+  }
+  .card div img{
+    position: relative;
+    top: 16px;
+  }
+  .music-player{
+    background-color:#252525;
+    position: absolute;
+    left: 0;
+    top: 832px;
+    height: 9vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    line-height: \10px;
+  }
+  .music-player img{
+    position: relative;
+    top: 9px;
+    left: 10px;
+  }
+  .music-player .tittle-song{
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+    font-weight: 700;
+    font-size:medium;
+  }
+  .music-player .singer{
+    position: relative;
+    left: 93px;
+    bottom: 30px;
+    color: #bebebe;
+    font-weight: 400;
+    font-size:small;
+  }
+  .music-player .icon{
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+    color: rgba(70, 241, 122, 0.988);
+  }
+  .music-player .song-play{
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+    
+  }
+  .music-player .song-play span{
+    font-size: large;
+    position: relative;
+    top: -5px;
+  }
+  .music-player .song-play .play-button{
+    font-size: xx-large;
+  }
+  .music-player .song-play .shuffle{
+    position: relative;
+    left: -50px;
+    top: -5px;
+  }.music-player .song-play .loop{
+    position: relative;
+    left: 50px;
+    top: -5px;
+  }
+  .music-player .song-play .left-arrow{
+    position: relative;
+    left: -30px;
+    top: -5px;
+  } .music-player .song-play .right-arrow{
+    position: relative;
+    left: 30px;
+    top: -5px;
+  }
+  .music-player button{
+    background-color: #252525;
+    color: #bebebe;
+    border: none;
+    font-size: large;
+  }
+  .music-player .play-button{
+    color: white;
+  }
+  .music-player .play-button:hover{
+    font-size: 35px;
+  }
+  .music-player .option-area {
+    position: absolute;
+    right: 250px;
+    bottom: 35px;
+    font-size: medium;
+    background-color: #252525;
+    color: #bebebe;
+  }
+  .music-player .option-area .queue{
+    position: relative;
+    left: 20px;
+  }
+  .music-player .option-area .volume{
+    position: relative;
+    left: 40px;
+  }
+  .music-player .option-area .full-screen{
+    position: relative;
+    left: 200px;
+  }
+  .music-player span:hover{
+    cursor: pointer;
+    border-bottom:2px solid #fffefe;
+    color: white;
+  }
+  .music-player button:hover{
+    color: white;
+  }
